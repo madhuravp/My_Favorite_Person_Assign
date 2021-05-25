@@ -1,0 +1,41 @@
+.popup {
+    /* max-width: 80vw; */
+    width: 88%;
+    padding:1rem;
+    z-index:1;
+    background-color:#f6e6cb;
+  
+  }
+
+  .entryform label, .entryform input, .entryform textarea, .entryform button{
+  
+    margin: 0.5rem 0;
+    display: block;
+    width:100%
+  
+  }
+
+  .formpopup {
+    
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  .formtest {
+    height: 10em;
+    display: fixed;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 40px;
+}
+  
+  
+  /* Add styles to the form container */
+  .formcontainer {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }

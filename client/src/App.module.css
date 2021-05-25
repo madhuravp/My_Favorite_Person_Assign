@@ -1,0 +1,39 @@
+body{
+    background-color:#f8f3eb;
+    
+    
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    overflow: scroll
+
+
+   
+    
+}
+
+
+
+
+.container {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+   }
+
+
+
+
+.image{
+    width:370px,
+
+}
+
+@media (max-width: 770px){
+    .container{
+        margin:0 10%;
+    }
+
+    .image{
+        width:100%;
+    }
+}
